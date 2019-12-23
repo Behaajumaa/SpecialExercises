@@ -1,0 +1,164 @@
+header {
+    text-align: right;
+}
+
+
+.SubHeader{
+    width:96%;
+    display :flex;
+    text-align: initial;
+    border-bottom:  1px solid black;
+    border-top:  1px solid black;
+
+}
+
+.SubHeader p {
+    font-size: 13px;
+    width : 48%;
+    padding: 2%;
+   
+}
+
+#firstP{
+    border-right: 1px solid black;
+    
+}
+
+
+
+
+.ByGenre{
+    display: flex;
+    padding: 22px;
+    border-bottom: black solid 1px;
+}
+
+#orange{
+    width: 30%;
+    background: rgb(211, 124, 24);
+    height: 180px;
+
+}
+#lightBlue{
+    width: 15%;
+    background:lightblue;
+    height: 180px;
+
+}
+#green{
+    width: 8%;
+    background: green;
+    height: 180px;
+}
+#yellow{
+    width: 8%;
+    background: yellow;
+    height: 180px;
+}
+#pink{
+    width: 5%;
+    background: pink;
+    height: 180px;
+}
+#red{
+    width: 5%;
+    background: red;
+    height: 180px;
+}
+#brown{
+    width: 5%;
+    background:rgb(87, 45, 7);
+    height: 180px;
+}
+#purpule{
+    width: 5%;
+    background: purple;
+    height: 180px;
+}
+#bage{
+    width: 5%;
+    background: sandybrown;
+    height: 180px;
+}
+
+#num1::before{
+        content: '1';
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgb(27, 27, 26);
+    color:rgb(235, 235, 235);
+    line-height: 30px;
+}
+
+#num2::before{
+    content: '2';
+display: inline-block;
+height: 30px;
+width: 30px;
+text-align: center;
+border-radius: 50%;
+background: rgb(27, 27, 26);
+color:rgb(235, 235, 235);
+line-height: 30px;
+}
+#num3::before{
+    content: '3';
+display: inline-block;
+height: 30px;
+width: 30px;
+text-align: center;
+border-radius: 50%;
+background: rgb(27, 27, 26);
+color:rgb(235, 235, 235);
+line-height: 30px;
+}
+#num4::before{
+    content: '4';
+display: inline-block;
+height: 30px;
+width: 30px;
+text-align: center;
+border-radius: 50%;
+background: rgb(27, 27, 26);
+color:rgb(235, 235, 235);
+line-height: 30px;
+}
+#num5::before{
+    content: '5';
+display: inline-block;
+height: 30px;
+width: 30px;
+text-align: center;
+border-radius: 50%;
+background: rgb(27, 27, 26);
+color:rgb(235, 235, 235);
+line-height: 30px;
+}
+.ByCountryOfOrigin{
+    padding-bottom: 22px;
+    border-bottom: black solid 1px;
+}
+
+
+.ByLableColor{
+    padding-bottom: 22px;
+    border-bottom: black solid 1px;
+}
+
+.ByDecadeOfRelease{
+    padding-bottom: 22px;
+    border-bottom: black solid 1px;
+}
+
+.OldestNewest{
+    padding-bottom: 22px;
+    border-bottom: black solid 1px;
+
+}
+span{
+    color:rgb(255, 123, 0);
+}
+
